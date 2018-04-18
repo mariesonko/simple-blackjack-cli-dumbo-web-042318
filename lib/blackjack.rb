@@ -2,8 +2,10 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
-  # code #deal_card here
+def deal_card(number )
+20.times do 
+  number = prng.rand(1..11)
+  puts number 
 end
 
 def display_card_total
