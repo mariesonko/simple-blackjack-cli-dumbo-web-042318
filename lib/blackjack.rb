@@ -3,9 +3,9 @@ def welcome
 end
 
 def deal_card(number )
-20.times do 
+20.times do
   number = prng.rand(1..11)
-  puts number 
+  puts number
 end
 
 def display_card_total
